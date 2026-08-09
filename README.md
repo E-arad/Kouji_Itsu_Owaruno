@@ -26,13 +26,35 @@
 
 同梱の地図（2768×2020 画素）で、クリックから表示まで少しの時間がかかります。
 
-## インストール
+## インストール (Python や git が初めての方は「※」を見てください)
+
+git がある場合はこちらでインストールできます。
 
 ```bash
-pip install git+https://github.com/E-arad/Kouji_Itsu_Owaruno.git
+pip install git+https://github.com/USERNAME/Kouji_Itsu_Owaruno.git
 ```
 
 Linux では tkinter が別パッケージのことがあります（`sudo apt install python3-tk`）。Windows と macOS の公式インストーラには同梱されています。
+
+**すでに Python を他の用途で使っている方は [pipx](https://pipx.pypa.io/) を推奨します。**
+専用の環境を作って入れるため、既存のライブラリを一切書き換えません。
+
+```bash
+pipx install git+https://github.com/USERNAME/Kouji_Itsu_Owaruno.git
+```
+
+> **※ プログラミングが初めての方へ** — Python の導入から順を追った手順を
+> [docs/はじめての方へ.md](docs/はじめての方へ.md) に用意しています。
+
+
+> ⚠️ pip で入れる場合、**numpy が 1.24 未満、pillow が 10.0 未満、scipy が 1.10 未満だと
+> 自動で新しい版へ更新されます**。条件を満たしていれば手を触れませんが、
+> 古い版に依存する別のコードをお持ちなら pipx か仮想環境をお使いください。
+
+
+
+> **プログラミングが初めての方へ** — Python の導入から順を追った手順を
+> [docs/はじめての方へ.md](docs/はじめての方へ.md) に用意しています。
 
 ## 使い方
 
