@@ -1,7 +1,4 @@
-"""Open-Meteo API による現在天気の取得。
-
-屋外歩行用ソフトウェアのため出発前の天気確認を用意。
-取得(I/O)と判定(純粋関数)は分離。判定側はネットワーク無しで試験可能。
+"""Open-Meteo API による現在天気の取得
 """
 
 from __future__ import annotations

@@ -1,17 +1,4 @@
 """縮小率と探索性能の関係の計測。
-
-検証する問いは2つ。
-
-1. ``--scale`` の適正値。増加により探索は高速化。ただしグリッド膨張の分だけ
-   経路の道外れが増加。速度と経路品質の両方を計測し折衷点を特定。
-2. 本ソフトウェアの必要性。目測による2点間距離と、実際の道のりとの乖離を計測。
-
-使い方::
-
-    uv run python benchmarks/benchmark.py
-    uv run python benchmarks/benchmark.py --plot results.pdf
-
-作図には matplotlib が必要（``uv add --group dev matplotlib``）。
 """
 
 from __future__ import annotations

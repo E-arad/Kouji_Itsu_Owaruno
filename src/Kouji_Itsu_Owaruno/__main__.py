@@ -3,7 +3,7 @@
 実行形式は ``python -m Kouji_Itsu_Owaruno`` または ``kouji``。
 
 本ソフトウェアは同梱地図の専用ツール。起動時は常に同梱地図を使用。差し替えは不可。
-理由は :mod:`Kouji_Itsu_Owaruno.mask` を参照。
+理由は :mod:`Kouji_Itsu_Owaruno.mask`。
 """
 
 from __future__ import annotations

@@ -36,10 +36,10 @@ pip install git+https://github.com/E-arad/Kouji_Itsu_Owaruno.git
 
 Linux では tkinter が別パッケージのことがあります（`sudo apt install python3-tk`）。Windows と macOS の公式インストーラには同梱されています。
 
-**以下のライブラリーよりも旧バージョンの方は [pipx](https://pipx.pypa.io/) も推奨です。**。
-    "numpy>=1.24",
-    "pillow>=10.0",
-    "scipy>=1.10"
+**以下のライブラリーよりも旧バージョンの方は [pipx](https://pipx.pypa.io/) も推奨です。**
+>    "numpy>=1.24",
+>    "pillow>=10.0",
+>   "scipy>=1.10"
 
 専用の環境を作って入れるため、既存のライブラリを一切書き換えません
 
@@ -51,7 +51,7 @@ pipx install git+https://github.com/E-arad/Kouji_Itsu_Owaruno.git
 > 古い版に依存する別のコードをお持ちなら pipx か仮想環境をお使いください。
 
 __※__
-** プログラミングが初めての方へ** — Python の導入から順を追った手順を [docs/はじめての方へ.md](docs/はじめての方へ.md) に用意しています。
+__プログラミングが初めての方へ__  — Python の導入から順を追った手順を [docs/はじめての方へ.md](docs/はじめての方へ.md) に用意しています。
 
 
 ## 使い方
