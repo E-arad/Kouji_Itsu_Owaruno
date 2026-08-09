@@ -1,5 +1,4 @@
-"""縮小率と探索性能の関係の計測。
-"""
+"""縮小率と探索性能の関係の計測。"""
 
 from __future__ import annotations
 

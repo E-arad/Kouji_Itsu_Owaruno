@@ -1,5 +1,4 @@
-"""2クリック経路探索。
-"""
+"""2クリック経路探索。"""
 
 from __future__ import annotations
 

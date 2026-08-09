@@ -1,5 +1,4 @@
-"""Tkinter による地図表示と操作。
-"""
+"""Tkinter による地図表示と操作。"""
 
 from __future__ import annotations
 

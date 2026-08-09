@@ -1,5 +1,4 @@
-"""Open-Meteo API による現在天気の取得
-"""
+"""Open-Meteo API による現在天気の取得"""
 
 from __future__ import annotations
 
